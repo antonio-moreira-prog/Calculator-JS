@@ -1,0 +1,20 @@
+{
+  "name": "calculator-js",
+  "version": "1.0.0",
+  "description": "My basic calculator",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonio-moreira-prog/Calculator-JS.git"
+  },
+  "author": "Antonio Moreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonio-moreira-prog/Calculator-JS/issues"
+  },
+  "homepage": "https://github.com/antonio-moreira-prog/Calculator-JS#readme"
+}
