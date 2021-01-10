@@ -1,2 +1,2 @@
 # Calculator-JS
- My calculator
+ My basic calculator
