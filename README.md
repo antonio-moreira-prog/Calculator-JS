@@ -15,5 +15,3 @@ Um dos meus projetos inicias dentro da programação web, logo estarei desenvolv
 ## Obrigado por ler o README.md do projeto
 
 Me siga para ver os futuros projetos.
-
-<img src = >
