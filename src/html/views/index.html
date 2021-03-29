@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style/style.css">
+    <link rel="shortcut icon" href="/css/images/calculator.ico" type="image/x-icon">
+    <title>Calculadora</title>
+</head>
+<body>
+        <div class="container">
+            <h1 class="page-title">
+                Calculadora
+            </h1>
+            <div class="calculadora">
+            </div>
+        </div>
+        <form name= "calculadora">
+            <input type="text" name="tela" id="tela">
+            <div>
+                <input type="button" value="7" onclick="botao(value)" class="num">
+                <input type="button" value="8" onclick="botao(value)" class="num">
+                <input type="button" value="9" onclick="botao(value)" class="num">
+                <input type="button" value="/" onclick="botao(value)" class="opera">
+                <input type="button" value="4" onclick="botao(value)" class="num">
+                <input type="button" value="5" onclick="botao(value)" class="num">
+                <input type="button" value="6" onclick="botao(value)" class="num">
+                <input type="button" value="*" onclick="botao(value)" class="opera">
+                <input type="button" value="3" onclick="botao(value)" class="num">
+                <input type="button" value="2" onclick="botao(value)" class="num">
+                <input type="button" value="1" onclick="botao(value)" class="num">
+                <input type="button" value="+" onclick="botao(value)" class="opera">
+                <input type="button" value="C" onclick="apagar()"     class="apagar">
+                <input type="button" value="0" onclick="botao(value)" class="num">
+                <input type="button" value="=" onclick="calcular()" class="igual">
+                <input type="button" value="-" onclick="botao(value)" class="opera-menos">
+            </div>
+    </form>
+        <script src="/script/script.js"></script>
+</body>
+</html>
